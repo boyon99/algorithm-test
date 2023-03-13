@@ -1,0 +1,20 @@
+{
+  "name": "baekjoon",
+  "version": "1.0.0",
+  "description": "백준 문제를 자바스크립트로 풀이한 레포",
+  "main": "baekjoon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boyon99/baekjoon-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boyon99/baekjoon-js/issues"
+  },
+  "homepage": "https://github.com/boyon99/baekjoon-js#readme"
+}
