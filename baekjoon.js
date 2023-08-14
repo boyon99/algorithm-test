@@ -1,8 +1,18 @@
 // fs.readFileSync(0)
-// fs.readFileSync("/dev/stdin")
-let inputData = require("fs").readFileSync(process.platform === 'linux' ? '/dev/stdin' : './input.txt').toString().trim().split('\n')
+// let inputData = require("fs").readFileSync('/dev/stdin').toString().trim()
+let inputData = require("fs").readFileSync(process.platform === 'linux' ? '/dev/stdin' : './input.txt').toString().trim().split("\n")
 
-console.log(inputData)
+let num = Number(inputData[0])
+inputData.shift()
+
+for (let i = 0; i < num; i++) {
+  let word = inputData[i]
+  for (let j = 0; j < word.length; j++) {
+    console.log(word[j])
+  }
+}
+
+console.log(num)
 
 
 // 1. 입력값이 한 개일 때(한 줄)
